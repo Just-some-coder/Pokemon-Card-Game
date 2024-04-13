@@ -15,7 +15,7 @@ function SwitchButton({stateInitial,stateNext}){
     return(
         <button onClick={handleClick}>
             {stateBool?stateNext:stateInitial}
-            <audio src="/public/backgroundMusic.mp3" loop ref={audioRef} autoPlay="autoplay"/>
+            <audio src="https://dl.vgmdownloads.com/soundtracks/pokemon-firered-leafgreen-music-super-complete/nixinsogwg/1-03.%20Title%20Screen.mp3" loop ref={audioRef} autoPlay="autoplay"/>
         </button>
     );
 }
@@ -148,13 +148,13 @@ function CardGame({handleClickSound}){
         if(selectedCards.length === 10){
             setGameWin(true)
 
-            const winSound = new Audio("public/winAudio.mp3")
+            const winSound = new Audio("https://dl.vgmdownloads.com/soundtracks/pokemon-firered-leafgreen-music-super-complete/ebvweqrrvv/1-19.%20Victory%21%20%28Wild%20Pok%C3%A9mon%29.mp3")
             winSound.play();
 
             setInterval(() => {
                 winSound.pause();
                 setGameWin(false)
-            }, 5000)
+            }, 6000)
 
             setSelectedCards([])
         }
