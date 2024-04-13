@@ -168,6 +168,10 @@ img{
     justify-content: center;
     margin-top: 2rem;
   }
+  .title img{
+    width: 200px;
+    height: 75px;
+  }
 
 }
 
