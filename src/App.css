@@ -136,3 +136,76 @@ img{
 .scoreBoard h3{
   color: black;
 }
+
+
+@media screen and (max-width: 600px) {
+  .card{
+    height: 10rem;
+    width: 8rem;
+  }
+  .card-pokemon-photo img{
+    height: 6.5rem;
+    width: 6.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+  .card-pokemon-name h3{
+    text-align: center;
+    color: black;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  .cardGame{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10rem;
+  }
+
+  .scoreBoard{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+
+}
+
+@media screen and (max-width: 1024px) {
+  .card{
+    height: 13rem;
+    width: 10rem;
+  }
+  .card-pokemon-photo img{
+    height: 9rem;
+    width: 9rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+  .card-pokemon-name h3{
+    text-align: center;
+    color: black;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 1.25rem;
+  }
+  .cardGame{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 7.5rem;
+  }
+
+  .scoreBoard{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+
+  }
+
+  .scoreBoard h3{
+    font-size: 1.3rem;
+  }
+
+}
