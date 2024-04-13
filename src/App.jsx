@@ -191,7 +191,7 @@ function App() {
         <div className={"mainPage"}>
 
             <div className={"title shine"}>
-                <img src="/public/pokemon_Title.png"/>
+                <img src="/pokemon_Title.png"/>
             </div>
 
             <PlayGame playBool={playBool} handleClick={handlePlayGame}/>
