@@ -163,7 +163,7 @@ function PlayGame({playBool,handleClick}) {
         return (
             <div className={"gameBoard"} onClick={handleClick}>
                 <button className={"playButton"}>
-                    <img src="../public/pokeball%20icon.png"/>
+                    <img src="/pokeball%20icon.png"/>
                 </button>
             </div>
         );
@@ -198,8 +198,8 @@ function App() {
 
             <div className={"utilities"}>
                 <div className={"utilities-left"}>
-                    <button><img src="../public/megaphone-solid-24.png"/></button>
-                    <button><img src="../public/music-solid-24.png"/></button>
+                    <button><img src="/megaphone-solid-24.png"/></button>
+                    <button><img src="/music-solid-24.png"/></button>
                 </div>
             </div>
         </div>
