@@ -1,42 +1,138 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+.mainPage{
+  background-image: url("../public/pokemon background.jpg");
+  /*background-repeat: no-repeat;*/
+  /*background-size: cover;*/
+  /*height: 584px;*/
+  /*width: 1240px;*/
+  /*justify-content:space-around ;*/
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+
+  background-size: cover;
+
+  background-position: center center;
+
+  height: 585px;
+}
+
+img{
+  border: none;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+}
+
+.title img{
+  width: 400px;
+  height: 150px;
+}
+
+.gameBoard{
+  display: flex;
+  justify-content: center;
+  margin: 4.5rem 0 14rem 0;
+}
+
+.gameBoard h1{
+  color: black;
+  margin-bottom: 4rem;
+}
+
+.utilities{
+  display: flex;
+  justify-content: space-between;
+  height: fit-content;
+}
+
+.playButton{
+  background:none;
+  border: none;
+  caret: transparent;
+  cursor: pointer;
+}
+
+.playButton img{
+  width: 100px;
+  height: 100px;
+  border: none;
+  caret: transparent;
+  transition: 0.5s ease-in;
+}
+
+.playButton img:hover{
+  opacity: 60%;
+  transform: rotateZ(360deg);
+  transition: 0.5s ease-out;
+  caret: transparent;
+}
+
+.utilities-left button{
+  background:none;
+  border: none;
+  width: 20px;
+  height: 20px;
+  margin: 0 1rem 0 1rem;
+}
+
+.utilities-left img{
+  width: 20px;
+  height: 20px;
+}
+
+.card{
+  border:4px #2D70B7 solid;
+  border-radius: 20px;
+  background: #FFC329;
+  /*height: 280px;*/
+  /*width: 200px;*/
+  height: 20rem;
+  width: 15rem;
+  margin: 0.5rem;
+  cursor: pointer;
+  justify-content: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0,0.5);;
+}
+
+.card:hover{
+  box-shadow: 0 4px 6px rgba(0, 0, 0);
+}
+
+.card-pokemon-photo{
+  display: flex;
+  justify-content: center;
+}
+.card-pokemon-photo img{
+  /*height: 100px;*/
+  /*width: 100px;*/
+  height: 10rem;
+  width: 10rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.card-pokemon-name h3{
+  text-align: center;
+  color: black;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 2rem;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cardGame{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 2.4rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.scoreBoard{
+  display: flex;
+  justify-content: center;
 }
 
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+.scoreBoard h3{
+  color: black;
 }
