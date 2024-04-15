@@ -138,14 +138,14 @@ img{
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
   .card{
-    height: 8rem;
-    width: 6rem;
+    height: 7rem;
+    width: 5rem;
   }
   .card-pokemon-photo img{
-    height: 5rem;
-    width: 5rem;
+    height: 4rem;
+    width: 4rem;
     margin-top: 1.5rem;
     margin-bottom: 0.5rem;
     text-align: center;
@@ -176,12 +176,12 @@ img{
 
 @media screen and (max-width: 1024px) {
   .card{
-    height: 8rem;
-    width: 6rem;
+    height: 7rem;
+    width: 5rem;
   }
   .card-pokemon-photo img{
-    height: 5rem;
-    width: 5rem;
+    height: 4rem;
+    width: 4rem;
     margin-top: 1.5rem;
     margin-bottom: 0.5rem;
     text-align: center;
