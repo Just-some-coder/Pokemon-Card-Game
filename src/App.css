@@ -86,10 +86,10 @@ img{
   border:4px #2D70B7 solid;
   border-radius: 20px;
   background: #FFC329;
-  /*height: 280px;*/
-  /*width: 200px;*/
-  height: 20rem;
-  width: 15rem;
+  height: 60%;
+  width: 20%;
+  /*height: 20rem;*/
+  /*width: 15rem;*/
   margin: 0.5rem;
   cursor: pointer;
   justify-content: center;
@@ -105,10 +105,10 @@ img{
   justify-content: center;
 }
 .card-pokemon-photo img{
-  /*height: 100px;*/
-  /*width: 100px;*/
-  height: 10rem;
-  width: 10rem;
+  height: 90%;
+  width: 90%;
+  /*height: 10rem;*/
+  /*width: 10rem;*/
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
   text-align: center;
@@ -138,14 +138,16 @@ img{
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 30rem) {
+
   .card{
-    height: 7rem;
-    width: 5rem;
+    height: 22vh;
+    width: 40vw;
   }
+
   .card-pokemon-photo img{
-    height: 4rem;
-    width: 4rem;
+    height: 15vh;
+    width: 15vh;
     margin-top: 1.5rem;
     margin-bottom: 0.5rem;
     text-align: center;
@@ -159,7 +161,13 @@ img{
   }
 
   .cardGame{
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /*justify-content: center;*/
+    align-items: center;
+    /*margin-bottom: 2.4rem;*/
+    margin-bottom: 0vh;
   }
 
   .scoreBoard{
@@ -175,13 +183,9 @@ img{
 }
 
 @media screen and (max-width: 1024px) {
-  .card{
-    height: 7rem;
-    width: 5rem;
-  }
   .card-pokemon-photo img{
-    height: 4rem;
-    width: 4rem;
+    /*height: 10rem;*/
+    /*width: 10rem;*/
     margin-top: 1.5rem;
     margin-bottom: 0.5rem;
     text-align: center;
@@ -191,10 +195,12 @@ img{
     color: black;
     text-transform: capitalize;
     font-weight: 600;
-    font-size: 0.8rem;
+    font-size:1.5rem;
   }
   .cardGame{
-    display: grid;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 6rem;
   }
 
   .scoreBoard{
