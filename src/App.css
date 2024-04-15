@@ -140,12 +140,12 @@ img{
 
 @media screen and (max-width: 600px) {
   .card{
-    height: 10rem;
-    width: 8rem;
+    height: 8rem;
+    width: 6rem;
   }
   .card-pokemon-photo img{
-    height: 6rem;
-    width: 6rem;
+    height: 5rem;
+    width: 5rem;
     margin-top: 1.5rem;
     margin-bottom: 0.5rem;
     text-align: center;
@@ -155,8 +155,9 @@ img{
     color: black;
     text-transform: capitalize;
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
+
   .cardGame{
     display: grid;
   }
@@ -175,12 +176,12 @@ img{
 
 @media screen and (max-width: 1024px) {
   .card{
-    height: 10rem;
-    width: 8rem;
+    height: 8rem;
+    width: 6rem;
   }
   .card-pokemon-photo img{
-    height: 6rem;
-    width: 6rem;
+    height: 5rem;
+    width: 5rem;
     margin-top: 1.5rem;
     margin-bottom: 0.5rem;
     text-align: center;
@@ -190,7 +191,7 @@ img{
     color: black;
     text-transform: capitalize;
     font-weight: 600;
-    font-size: 1.25rem;
+    font-size: 0.8rem;
   }
   .cardGame{
     display: grid;
